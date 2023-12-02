@@ -1,2 +1,2 @@
 # sabirhussainbalal.github.io
- Explore the coding journey of Sabir Hussain Balal, the Programming Magician! This GitHub account houses a collection of projects, coding experiments, and insights into the world of technology. From Python magic to web development wonders, join me on this enchanting coding adventure. Feel free to delve into the code repositories and witness the magic unfold.
+sabirhussainbalal - Embark on the coding journey of Sabir Hussain Balal, the Programming Magician! Explore a collection of projects and coding wonders, from Python magic to web development. Delve into code repositories and witness the magic unfold. This was my first webpage, now transformed into a real website.

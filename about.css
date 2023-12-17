@@ -105,4 +105,21 @@ body{
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
+.time{
+    position: absolute;
+    z-index: 1000;
+    width: 0%;
+    height: 3px;
+    background-color: green;
+    left: 0;
+    top: 0;
+}
 
+.time,
+.time{
+    animation: runningTime 4s linear 1 forwards;
+}
+@keyframes runningTime{
+    from{ width: 100%}
+    to{width: 0}
+}

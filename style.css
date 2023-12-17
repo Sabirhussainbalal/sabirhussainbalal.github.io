@@ -882,3 +882,21 @@ button a {
 .last{
 	text-align: center;
 }
+.time{
+    position: absolute;
+    z-index: 1000;
+    width: 0%;
+    height: 3px;
+    background-color: red;
+    left: 0;
+    top: 0;
+}
+
+.time,
+.time{
+    animation: runningTime 4s linear 1 forwards;
+}
+@keyframes runningTime{
+    from{ width: 100%}
+    to{width: 0}
+}

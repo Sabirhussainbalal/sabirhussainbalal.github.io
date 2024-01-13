@@ -52,7 +52,8 @@
         content="Get in touch with Sabir Hussain Balal for coding challenges, services, or discussions about technology.">
     <!-- <meta property="og:image" content="https://www.facebook.com/photo?fbid=730698588931366&set=a.104037091597522"> -->
     <meta property="og:url" content="https://sabirhussainbalal.github.io/contact.html">
-    <meta property="og:image" content="https://github.com/Sabirhussainbalal/sabirhussainbalal.github.io/blob/main/img/ContactUs.PNG">
+    <meta property="og:image"
+        content="https://github.com/Sabirhussainbalal/sabirhussainbalal.github.io/blob/main/img/ContactUs.PNG">
     <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -181,22 +182,24 @@
         </p>
     </div> <br> <br>
 
+    <!-- Sabir Hussain Balal's Pictures -->
     <div class="tab library">
         <div class="animation-show">
-            <img src="img/TourWithFamilyAtThatta.jpg">
-            <!-- <p>Image Name</p> -->
+            <img src="{{ url_for('static', filename='img/TourWithFamilyAtThatta.jpg') }}"
+                alt="Sabir Hussain Balal - Tour with Family at Thatta" title="Tour with Family at Thatta">
         </div>
         <div class="animation-show">
-            <img src="img/DinerWithFamilyAtKababjeesResto.jpg">
-            <!-- <p>Image Name</p> -->
+            <img src="{{ url_for('static', filename='img/DinerWithFamilyAtKababjeesResto.jpg') }}"
+                alt="Sabir Hussain Balal - Dinner with Family at Kababjees Resto"
+                title="Dinner with Family at Kababjees Resto">
         </div>
         <div class="animation-show">
-            <img src="img/DinerWithFamilyatBigCResto.jpg">
-            <!-- <p>Image Name</p> -->
+            <img src="{{ url_for('static', filename='img/DinerWithFamilyatBigCResto.jpg') }}"
+                alt="Sabir Hussain Balal - Dinner with Family at Big C Resto" title="Dinner with Family at Big C Resto">
         </div>
         <div class="animation-show">
-            <img src="img/SindhiCulturedayatschool.jpg">
-            <!-- <p>Image Name</p> -->
+            <img src="{{ url_for('static', filename='img/SindhiCulturedayatschool.jpg') }}"
+                alt="Sabir Hussain Balal - Sindhi Culture Day at School" title="Sindhi Culture Day at School">
         </div>
     </div>
     <div class="Closing">

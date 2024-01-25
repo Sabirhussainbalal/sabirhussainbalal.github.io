@@ -229,4 +229,10 @@ button:hover {
     from{ width: 100%}
     to{width: 0}
 }
+.animation-show img:hover {
+    background-color: #191919;
+    background-position: center;
+    box-shadow: 0 0 4px white;
+    opacity: 0.6;
+}
 

@@ -76,6 +76,10 @@ footer {
 	box-sizing: border-box;
 }
 
+footer:hover {
+            background: -webkit-linear-gradient(-45deg, #5fc3e4 0%, #e55d87 100%);
+        }
+
 footer p {
 	color: #FFFFFF;
 	margin: 20px 0 0 0;

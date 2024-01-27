@@ -117,9 +117,111 @@
                 transform: translateX(40px);
             }
         }
+
+        details>summary {
+            padding: 8px;
+            /* background-color: #e55d87; */
+            background: -webkit-linear-gradient(-45deg, #5fc3e4 0%, #e55d87 100%);
+            /* Tomato color */
+            color: white;
+            border: none;
+            box-shadow: 1px 1px 2px #bbbbbb;
+            cursor: pointer;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        details>summary:hover {
+            background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%)
+                /* Darker Tomato color on hover */
+        }
+
+        details>p {
+            background-color: #eeeeee;
+            padding: 8px;
+            margin: 0;
+            box-shadow: 1px 1px 2px #bbbbbb;
+        }
+
+        details {
+            display: block;
+        }
+
+        .Note {
+            max-width: 600px;
+            margin: auto;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .Note:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .gallery {
+            flex-basis: 50%;
+            display: grid;
+            gap: 8px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 120px;
+            animation: slideInTop 1s ease-in-out;
+
+        }
+
+        .row-2 {
+            grid-row: span 2;
+        }
+
+        .col-2 {
+            grid-column: span 2;
+        }
+
+
+        .box {
+            background-size: cover;
+            background-position: top;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #999;
+            transition: all 1s ease-in-out;
+            background-blend-mode: hard-light;
+            cursor: pointer;
+        }
+
+        .box:hover {
+            background-color: #191919;
+            background-position: center;
+            box-shadow: 0 0 4px white;
+        }
+
+
+        @keyframes slideInTop {
+            from {
+                transform: translateY(-100%);
+            }
+
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .gallery {
+                width: 100%;
+                padding: 12px;
+            }
+
+
+        }
     </style>
 
-    
+
     <!-- Earning Tags -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2489553588771852"
         crossorigin="anonymous"></script>
@@ -372,58 +474,60 @@
                     <div class="last">
                         <div class="Note">
                             <div class="header">
-                                <h2>Gaming Odyssey and Future Aspirations
+                                <details>
+                                    <summary>
+                                        L4$T D4Y. / sabir.: Gaming Odyssey and Future Aspirations
+                                    </summary>
+                                    <p>
+                                        Back in 2018, my gaming journey kicked off in the CS 1.6 realm, where I,
+                                        alongside friends, dove
+                                        into the intricacies of the base builder mode, constructing and battling through
+                                        virtual
+                                        landscapes. Fast forward to 2023, amidst my coding journey, I found solace in
+                                        revisiting a CS 1.6
+                                        server, forging new bonds during my moments of leisure.<br><br>
+                                        The shift to CS:GO in 2020 wasn't prompted by friends leaving CS 1.6 but was a
+                                        personal choice.
+                                        Despite my status as a novice, I delved into a diverse range of games, from COD
+                                        to GTA, tackling
+                                        high-level challenges in titles like Assassin's Creed and Tomb Raider.<br><br>
+                                        In 2023, my gaming landscape has undergone a transformation. Programming now
+                                        occupies the
+                                        majority of my time, leaving limited space for gaming. Nevertheless, the
+                                        memories of CS 1.6, persist
+                                        in my heart.<br><br> Last Game: On January 21, 2024, I played CS 1.6, reliving
+                                        the nostalgia of the
+                                        past. The familiar maps, strategies, and the joy of being part of the gaming
+                                        community brought back
+                                        cherished memories. <br><br>
+                                    <div class="gallery">
+                                        <div class="box row-2" id="box-1" style="background-image: url(1.bmp);"></div>
+                                        <div class="box col-2" style="background-image: url(2.bmp);"></div>
+                                        <div class="box" style="background-image: url(3.bmp);"></div>
+                                        <div class="box row-2" style="background-image: url(4.bmp);"></div>
+                                        <div class="box col-2" style="background-image: url(5.bmp);"></div>
+                                        <div class="box" style="background-image: url(6.bmp);"></div>
+                                        <div class="box col-2" style="background-image: url(7.PNG);"></div>
+                                    </div>
+                                    <br>
+                                    As my journey unfolds, my mind opened up to new possibilities, leading
+                                    me to the
+                                    decision to create my own high-level games. From these gaming experiences, a passion
+                                    for game
+                                    development was born, driving me to explore the realms of programming languages like
+                                    C++,
+                                    JavaScript,
+                                    and more. The challenge of crafting immersive and challenging gaming experiences has
+                                    become my next
+                                    frontier, and I'm excited to embark on this captivating exploration.<br><br>
+                                    InshaAllah, 1 day, the games we create will be even better and more impactful. May
+                                    our efforts be
+                                    guided and successful.
+                                    </p>
+                                    <hr>
+                                </details>
                             </div>
-                            </h2>
                         </div>
-                        <p>
-                            Back in 2018, my gaming journey kicked off in the CS 1.6 realm, where I, alongside friends
-                            like
-                            <a href="https://www.facebook.com/nocho.nocho.5203" target="_blank">bbking</a>, <a
-                                href="#">kerplunk</a>,
-                            <a href="#">spicey</a>, <a href="https://www.facebook.com/niazhussain.balal"
-                                target="_blank">GHOST_RIDER</a>
-                            and <a href="#">Others</a> dove into the intricacies of the base
-                            builder mode,
-                            constructing
-                            and battling through virtual landscapes. Fast forward to 2023, amidst my coding journey, I
-                            found
-                            solace in revisiting <a href="https://www.facebook.com/groups/pkprohunters"
-                                target="_blank">Pk
-                                basebuilder Server</a>, forging new bonds with <a href="#">Zero</a>,
-                            <a href="https://www.facebook.com/profile.php?id=100087181104032" target="_blank">Razer</a>,
-                            <a href="https://www.facebook.com/bardhi.js.3" target="_blank">h1hg</a> and others during my
-                            moments of leisure.<br><br>
-                            The shift to CS:GO in 2020 wasn't prompted by friends leaving CS 1.6 but was a personal
-                            choice.
-                            Despite my status as a novice, I delved into a diverse range of games, from COD to GTA,
-                            tackling
-                            high-level challenges in titles like Assassin's Creed and Tomb Raider.<br><br>
-                            In 2023, my gaming landscape has undergone a transformation. Programming now occupies the
-                            majority of my time, leaving limited space for gaming. Nevertheless, the memories of
-                            friends,
-                            whether from CS 1.6 or the new faces in <a
-                                href="https://www.facebook.com/groups/pkprohunters" target="_blank">Pk basebuilder
-                                Server</a>, persist in my heart. Special shoutouts
-                            to
-                            <a href="https://www.facebook.com/nocho.nocho.5203" target="_blank">bbking</a>, <a
-                                href="#">kerplunk</a>,
-                            <a href="#">Zero</a>, <a href="https://www.facebook.com/profile.php?id=100087181104032"
-                                target="_blank">Razer</a>, <a href="#">spicey</a>, <a
-                                href="https://www.facebook.com/niazhussain.balal" target="_blank">GHOST_RIDER</a>, <a
-                                href="https://www.facebook.com/bardhi.js.3" target="_blank">h1hg</a>,
-                            and <a href="#">Others</a> who have left an indelible mark on my
-                            gaming
-                            journey.<br><br><br>
-                            As my journey unfolds, my mind opened up to new possibilities, leading me to the decision to
-                            create my own high-level games. From these gaming experiences, a passion for game
-                            development
-                            was born, driving me to explore the realms of programming languages like C++, JavaScript,
-                            and
-                            more. The challenge of crafting immersive and challenging gaming experiences has become my
-                            next
-                            frontier, and I'm excited to embark on this captivating exploration.<br><br><br><br>
-                        </p>
                         <div class="header">
                             <h2>Unlocking Possibilities:</h2>
                         </div>

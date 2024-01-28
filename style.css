@@ -83,6 +83,8 @@ footer:hover {
 footer p {
 	color: #FFFFFF;
 	margin: 20px 0 0 0;
+	margin-top: -50px;
+        margin-bottom: 30px;
 }
 
 footer .cl h3::after {

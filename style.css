@@ -243,11 +243,37 @@ footer button a {
 }
 
 .Copyright {
-	padding: 10px;
-	margin-top: 10px;
-	padding-top: 20px;
-	text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+            padding-top: 20px;
+            text-align: center;
+            animation: fadeInUp 1s ease-out;
+            border-radius: 8px;
+}
 
+
+@keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+}
+
+.Copyright p {
+            transition: color 0.3s ease, font-size 0.3s ease;
+            font-size: 16px; /* Base font size */
+            color: #333; /* Default text color */
+        }
+
+.Copyright:hover p {
+            color: red; /* Text color on hover */
+            font-size: 18px; /* Increased font size on hover */
+            font-style: italic;
 }
 
 /* Button */

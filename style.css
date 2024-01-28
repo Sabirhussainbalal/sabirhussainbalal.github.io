@@ -268,7 +268,8 @@ footer button a {
             transition: color 0.3s ease, font-size 0.3s ease;
             font-size: 16px; /* Base font size */
             color: #333; /* Default text color */
-        }
+	    margin-bottom: -70px;
+}
 
 .Copyright:hover p {
             color: red; /* Text color on hover */
